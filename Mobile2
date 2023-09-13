@@ -1,0 +1,23 @@
+class  Mobile2
+{
+  public static void main(String[] value)
+  {
+   long num1=9353772585;
+   long num2=8197651156;
+   long num3=6362605514;
+   long num4=8884840878;
+   long num5=9040824575;
+   long[] phone={num4,num2,num5,num3,num1};
+   
+    long ref=phone[1];
+	System.out.println("Element at index of 1 : "+ref);
+	long ref1=phone[4];
+	System.out.println("Element at index of 4 : "+ref1);
+	long ref2=phone[2];
+	System.out.println("Element at index of 2 : "+ref2);
+	long ref3=phone[3];
+	System.out.println("Element at index of 3 : "+ref3);
+	long ref4=phone[0];
+	System.out.println("Element at index of 0 : "+ref4);
+  }
+}
